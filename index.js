@@ -9,6 +9,8 @@ const client = new Discord.Client({
     ]
 });
 
+const TOKEN;
+
 const Prefix = "?";
 
 client.on("ready", () => {
